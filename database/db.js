@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://emiliawebsite-a47c0698325a.herokuapp.com';
+var url = 'https://cifumo.biz.id';
 try {
-if(url == 'https://emiliawebsite-a47c0698325a.herokuapp.com') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://cifumo.biz.id') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
